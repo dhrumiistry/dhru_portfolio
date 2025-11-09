@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation -->
   <nav>
     <h1>Project 1</h1>
     <ul>
@@ -15,14 +16,16 @@
     </ul>
   </nav>
 
-  <section>
-    <h2>Exploratory Analysis & Insights</h2>
-    <p>This project involved analyzing a supermarket dataset using Excel, SQL, and Tableau.</p>
-    <p>The goal was to understand customer purchasing behavior and the relationship between advertising and sales.</p>
-    <p>The first section speaks about the key insights gathered from the Tableau dashboard (see screenshot).</p>
-    <p>This is followed by the full report with methodology, walking through stages in Excel, SQL & Tableau.</p>
-    <p>All stages are accompanied by screenshots in the appendix from each application to show the process/code used.</p>
-  </section>
+  <!-- Main Content Container -->
+  <div class="container">
+    <section>
+      <h2>Exploratory Analysis & Insights</h2>
+      <p>This project involved analyzing a supermarket dataset using Excel, SQL, and Tableau.</p>
+      <p>The goal was to understand customer purchasing behavior and the relationship between advertising and sales.</p>
+      <p>The first section speaks about the key insights gathered from the Tableau dashboard (see screenshot below).</p>
+      <p>This is followed by the full report with methodology, walking through stages in Excel, SQL & Tableau.</p>
+      <p>All stages are accompanied by screenshots in the appendix from each application to show the process/code used.</p>
+    </section>
 
     <h2>Tools Used</h2>
     <ul>
@@ -33,24 +36,21 @@
 
     <h2>Key Insights</h2>
     <ul>
-      <li>ME has highest average income compared to India with the lowest.</li>
-      <li>The top 3 most popular category sold is the same across all countries.</li>
+      <li>ME has the highest average income compared to India with the lowest.</li>
+      <li>The top 3 most popular categories sold are consistent across all countries.</li>
       <li>Higher education leads to more stable, progressive income.</li>
     </ul>
 
-    <!-- Tableau Dashboard Screenshot -->
     <h2>Dashboard Screenshot</h2>
     <div style="text-align: center;">
-      <img src="images/project1-dashboard.png" alt="Tableau Dashboard" style="width:600px; max-width:100%; border-radius:8px;">
+      <img src="images/project1-dashboard.png" alt="Tableau Dashboard" class="centered-img">
     </div>
 
-    <!-- PDF Report Embed -->
     <h2>Full Report</h2>
     <iframe src="reports/project1-report.pdf" width="100%" height="600px" style="border:none;"></iframe>
     <p><a href="reports/project1-report.pdf" target="_blank">📑 Open Report in New Tab</a></p>
+  </div>
 
-  </section>
-  
   <footer>
     <p>© 2025 Dhru Mistry</p>
   </footer>
